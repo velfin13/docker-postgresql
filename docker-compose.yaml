@@ -17,5 +17,3 @@ services:
     - .env
     ports:
       - "9090:80"
-    volumes:
-      - ./pgadmin:/var/lib/pgadmin
