@@ -10,10 +10,3 @@ services:
       - ./data:/var/lib/postgresql/data
     env_file:
       - .env
-  
-  pgadmin:
-    image: dpage/pgadmin4
-    env_file:
-    - .env
-    ports:
-      - "9090:80"
